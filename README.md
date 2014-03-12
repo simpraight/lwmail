@@ -15,7 +15,14 @@ It is made for use in simple and lightweight in a Japanese environment.
 Install
 --------
 
-  `composer.phar install simpraight/lwmail`
+  please appended to composer.json.
+  
+    require: {
+      "simpraight/lwmail": "dev-master"
+    }
+
+
+  and run command `composer.phar install` or `composer.phar update`
 
   Then, it describes the following file.
 
