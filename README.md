@@ -17,12 +17,6 @@ Install
 
   `composer.phar install simpraight/lwmail`
 
-Usage
-------
-
-    <?php
-    require 'vendor/autoload.php';
-    
   Then, it describes the following file.
 
     <?php
