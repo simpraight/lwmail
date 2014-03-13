@@ -3,6 +3,8 @@ lwmail
 
 Light Weight Mail
 
+*The currently  is the beta version.*
+
 This library is used to perform the e-mail transmission easily in PHP.
 Protocol currently supported are as follows.
  - POP3 (+SSL)
@@ -18,7 +20,7 @@ Install
   please appended to composer.json.
   
     require: {
-      "simpraight/lwmail": "dev-master"
+      "simpraight/lwmail": "*"
     }
 
 
@@ -42,7 +44,7 @@ Usage
     $pop3 = new POP3(array(
         'protocol' => 'ssl',
         'host' => 'smtp.gmail.com',
-        'port' => 987,
+        'port' => 995,
         'pop3.user' => 'xxxxxxx',
         'pop3.pass' => 'xxxxxxx',
     ));
